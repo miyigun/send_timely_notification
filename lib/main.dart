@@ -89,7 +89,7 @@ class _MyAppState extends State<MyApp>{
     var setAlarmTime=TextEditingController();
     return MaterialApp(
       home:  Scaffold(
-        appBar: AppBar(title: const Text("Alarm")),
+        appBar: AppBar(title: const Text("Send Timely Notification")),
         body: Center(
           child:
           Container(
@@ -99,7 +99,7 @@ class _MyAppState extends State<MyApp>{
               keyboardType: TextInputType.number,
               decoration: InputDecoration(
                 prefixIcon: const Icon(Icons.alarm_add),
-                labelText: "Set Alarm Time",
+                labelText: "Bildirim zamanını düzenleyin",
                 enabledBorder: OutlineInputBorder(
                   borderSide: const BorderSide(width: 3, color: Colors.blue),
                   borderRadius: BorderRadius.circular(15),
