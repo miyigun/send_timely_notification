@@ -88,6 +88,7 @@ class _MyAppState extends State<MyApp>{
   Widget build(BuildContext context) {
     var setAlarmTime=TextEditingController();
     return MaterialApp(
+      debugShowCheckedModeBanner: false,
       home:  Scaffold(
         appBar: AppBar(title: const Text("Send Timely Notification")),
         body: Center(
