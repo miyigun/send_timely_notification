@@ -100,7 +100,7 @@ class _MyAppState extends State<MyApp>{
               keyboardType: TextInputType.number,
               decoration: InputDecoration(
                 prefixIcon: const Icon(Icons.alarm_add),
-                labelText: "Bildirim zamanını düzenleyin",
+                labelText: "Bildirim zamanını düzenleyin(sn)",
                 enabledBorder: OutlineInputBorder(
                   borderSide: const BorderSide(width: 3, color: Colors.blue),
                   borderRadius: BorderRadius.circular(15),
